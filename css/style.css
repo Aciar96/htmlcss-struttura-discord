@@ -12,8 +12,29 @@
 header{
     height: 400px;
     background-color: blue;
+    margin-bottom: 10px;
 }
 .first-article{
     height: 400px;
     background-color: chartreuse;
+    margin-bottom: 10px;
+}
+.second-article{
+    height: 400px;
+    background-color: violet;
+    margin-bottom: 10px;
+}
+.third-article{
+    height: 400px;
+    background-color: yellow;
+    margin-bottom: 10px;
+}
+.fourth-article{
+    height: 400px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+footer{
+    height: 400px;
+    background-color: black;
 }
