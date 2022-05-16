@@ -7,29 +7,50 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    
 }
+
 /* utilitis */
-nav{
+.row{
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
+    padding-top: 10px;
 }
-ol{
-    display: flex;
+.colonna{
+    height: 50px;
+    width: 60px;
+    background-color: black;
 }
-li{
-    padding: 5px;
-    list-style-type: none;
+.colonna-two{
+    height: 50px;
+    width: 400px;
+    background-color: black;
     }
+
+
 /* header */
 header{
     height: 400px;
     background-color: blue;
     margin-bottom: 10px;
 }
-h2{
-    text-align: center;
-    margin: 0 auto;
+
+   
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+     height: 300px;
+     padding-top: 10px;
+}
+.riga{
+    height: 60px;
+    width: 600px;
+    background-color: black;
+    margin-bottom: 15px;
+    
 }
 
 
