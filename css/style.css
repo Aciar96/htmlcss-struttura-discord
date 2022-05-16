@@ -8,12 +8,32 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+/* utilitis */
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+ol{
+    display: flex;
+}
+li{
+    padding: 5px;
+    list-style-type: none;
+    }
 /* header */
 header{
     height: 400px;
     background-color: blue;
     margin-bottom: 10px;
 }
+h2{
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* main  */
 .first-article{
     height: 400px;
     background-color: chartreuse;
